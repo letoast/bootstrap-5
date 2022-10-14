@@ -2,6 +2,7 @@ const path = require('path')
 
 module.exports = {
   mode: 'development',
+  target: 'web',
   devServer: {
     port: 3000,
     contentBase: [
