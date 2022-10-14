@@ -1,11 +1,10 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
   mode: 'development',
   target: 'web',
   devServer: {
-    open: 'google-chrome',
-    port: 9000,
+    port: 3000,
     contentBase: [
       path.join(__dirname, 'src'),
       path.join(__dirname, 'dist'),
@@ -34,4 +33,4 @@ module.exports = {
       },
     ],
   },
-};
+}
